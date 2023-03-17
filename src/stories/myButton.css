@@ -1,0 +1,37 @@
+.my-button {
+  /* padding: 5px; */
+  border: solid;
+  border-radius: 10px;
+}
+.red {
+  background-color: rgba(255, 0, 0, 0.5);
+  border-color: red;
+}
+.blue {
+  background-color: rgba(0, 0, 255, 0.5);
+  border-color: blue;
+}
+.green {
+  background-color: rgba(0, 255, 0, 0.5);
+  border-color: green;
+}
+.btn {
+  border: none;
+  padding: 20px;
+  font-size: 2rem;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px;
+  /* background: orange; */
+  cursor: pointer;
+  transition: background 1s, transform 0.2s, box-shadow 0.5s;
+}
+.btn:hover {
+  /* background: green; */
+  transform: scale(1.05);
+}
+
+.btn:active {
+  /* background: blue; */
+  transform: translate(3px, 3px);
+  box-shadow: 5px 5px 5px;
+}

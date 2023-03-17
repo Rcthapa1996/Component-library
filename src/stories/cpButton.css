@@ -1,0 +1,64 @@
+/* export const Large = Template.bind({});
+Large.args = {
+    bgColor: "gray",
+    padding: "15px",
+    hasDropDown: false,
+    icon: <h5>Hello</h5>,
+    btnName: "Save", 
+} */
+
+/* <button class={`cp-button p-${padding} ${bgColor} ${hasDropDown}`}> */
+:root {
+  --bg-dark: black;
+  --bg-white: white;
+  --bg-black: black;
+  --bg-code-body: #1d1e22;
+  --bg-text-color-dark-mode: white;
+  --bg-light-gray: #666;
+  --bg-light-gray-border: #333;
+  --bg-nav-icon: #5a5f73;
+  --bg-nav-icon-hover: #7a7f93;
+  --bg-light-red: #dd5050;
+  --bg-light-blue: #5050dd;
+  --bg-light-yellow: #dddd50;
+}
+.cp-button {
+  border-radius: 10px;
+  background: var(--bg-light-yellow);
+  color: var(--bg-light-blue);
+  border: none;
+  border-radius: 10px;
+  margin: 0px 3px;
+}
+.cp-button i {
+  padding: 15px 10px;
+}
+.cp-button i + i {
+  margin-left: 10px;
+  border-left: solid var(--bg-dark);
+}
+.p-15 {
+  padding: 15px 10px;
+}
+.p-5 {
+  padding: 5px 2px;
+}
+
+.gray {
+  background: var(--bg-nav-icon);
+  color: var(--bg-text-color-dark-mode);
+}
+
+.hasDropDown {
+  border: 5px solid red;
+}
+/* "small", "medium", "large") */
+.btn-small {
+  padding: 5px 2px;
+}
+.btn-medium {
+  padding: 10px 4px;
+}
+.btn-large {
+  padding: 15px 10px;
+}
